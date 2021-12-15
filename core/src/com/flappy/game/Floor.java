@@ -31,6 +31,7 @@ public class Floor {
     public void dispose(){
         texture.dispose();
     }
+
     public void changePosition(){
         x1 -= Gdx.graphics.getDeltaTime() * floorSpeed;
         x2 -= Gdx.graphics.getDeltaTime() * floorSpeed;
